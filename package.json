@@ -1,0 +1,26 @@
+{
+  "name": "ramen-token",
+  "version": "1.0.0",
+  "description": "$ramen Token for Robinhood Chain Testnet",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test"
+  },
+  "keywords": [
+    "robinhood",
+    "token",
+    "erc20",
+    "ramen"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ignition": "^0.15.5",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.6"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2",
+    "dotenv": "^16.4.5"
+  }
+}
